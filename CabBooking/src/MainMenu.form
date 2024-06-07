@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainMenu">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="13" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="612" height="525"/>
+    </constraints>
+    <properties>
+      <minimumSize width="455" height="406"/>
+      <preferredSize width="500" height="406"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2d6b1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Enter Pickup location :"/>
+        </properties>
+      </component>
+      <vspacer id="fbd62">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="14069" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Enter Dropoff location :"/>
+        </properties>
+      </component>
+      <component id="37232" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Select Vehicle :"/>
+        </properties>
+      </component>
+      <component id="9bece" class="javax.swing.JRadioButton" binding="SUVRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SUV"/>
+        </properties>
+      </component>
+      <component id="29e3e" class="javax.swing.JRadioButton" binding="autoRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Auto"/>
+        </properties>
+      </component>
+      <vspacer id="ee78f">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="cc0fb" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="5" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="75be6" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="5" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="d8018">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="767f8">
+        <constraints>
+          <grid row="11" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b69c5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="15" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="22" style="1"/>
+          <text value="Where do you want to go"/>
+        </properties>
+      </component>
+      <component id="1d9ae" class="javax.swing.JRadioButton" binding="minivanRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Minivan"/>
+        </properties>
+      </component>
+      <component id="9da3d" class="javax.swing.JRadioButton" binding="sedanRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sedan"/>
+        </properties>
+      </component>
+      <component id="a5308" class="javax.swing.JButton" binding="bookCabButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="16" style="1"/>
+          <text value="Book Cab"/>
+        </properties>
+      </component>
+      <component id="2a332" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Cost :"/>
+        </properties>
+      </component>
+      <component id="87374" class="javax.swing.JButton" binding="viewProfileButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="16" style="1"/>
+          <text value="View Profile"/>
+        </properties>
+      </component>
+      <component id="17c90" class="javax.swing.JLabel" binding="Amount">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Amount"/>
+        </properties>
+      </component>
+      <vspacer id="a032d">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4a260" class="javax.swing.JButton" binding="calculateFareButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="1"/>
+          <text value="Calculate Fare"/>
+        </properties>
+      </component>
+      <component id="df89d" class="javax.swing.JButton" binding="goToRideButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="12" style="1"/>
+          <text value="Go to Ride"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
